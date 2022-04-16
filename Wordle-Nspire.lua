@@ -1,6 +1,6 @@
 --                [Wordle-Nspire] 
 --[github.com/Edge2020/Wordle-Nspire] 
---               [License: GPLv3] 
+--               [License: MIT] 
 
 local lib, colorDat, color, sx, sy, spc, dx, dy, input, tmp, row, sch, alpha, now, word, alphaNow, answer, r 
 local isNotfound, isWin, isLost, isChecking, isAbout
@@ -228,7 +228,7 @@ function on.paint(gc)
         gc:setColorRGB(textC[1]) 
         gc:drawString("Wordle-Nspire " .. verText, 64, 53) 
         gc:setFont("serif", "r", 7) 
-        gc:drawString("License: GPLv3", 64, 69) 
+        gc:drawString("License: MIT", 64, 69) 
         gc:setFont("sansserif", "b", 9) 
         gc:drawString("Github: Edge2020", 64, 93) 
         gc:drawString("Hope you enjoy this game!", 64, 109) 
